@@ -71,7 +71,9 @@ curl -X 'GET' 'http://127.0.0.1:8000/users/1' -H 'accept: application/json'
 ```
 
 ## Benchmarking using Apache Benchmark
-`ab -n 1000 -c 100 http://127.0.0.1:8000/users/1`
+```bash
+ab -n 1000 -c 100 http://127.0.0.1:8000/users/1
+```
 
 ## Additional Information
 
